@@ -123,5 +123,4 @@ User Event
          ▼
    Dashboard API
 
-<img width="687" height="555" alt="image" src="https://github.com/user-attachments/assets/26dd77a1-a774-4304-8273-aa7e7b82616d" />
-
+<img width="687" height="555" alt="image" src="https://github.com/user-attachments/assets/67d50c57-90e1-417e-ba85-87dbceac799c" />
