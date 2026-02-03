@@ -70,9 +70,13 @@ graph TB
     B -->|REST| C
     C --> D & E & F & G
     D & E & F & G --> H & I & J & K
-<img width="1220" height="750" alt="diagram" src="https://github.com/user-attachments/assets/8a050e19-7038-4a39-a215-037e38c8a518" />
 
-<img width="1090" height="750" alt="diagram (1)" src="https://github.com/user-attachments/assets/d0612c04-9e9f-4133-9f30-0ca945211f83" />
+
+<img width="687" height="555" alt="image" src="https://github.com/user-attachments/assets/65e15e67-a6ed-46c4-ab41-15f34a3da557" />
+
+
+
+
 
 Admin/Batch Request
        │
@@ -123,4 +127,3 @@ User Event
          ▼
    Dashboard API
 
-<img width="687" height="555" alt="image" src="https://github.com/user-attachments/assets/67d50c57-90e1-417e-ba85-87dbceac799c" />
