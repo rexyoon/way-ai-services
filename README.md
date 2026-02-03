@@ -123,16 +123,5 @@ User Event
          ▼
    Dashboard API
 
-🛠 기술 스택Backend
+<img width="687" height="555" alt="image" src="https://github.com/user-attachments/assets/26dd77a1-a774-4304-8273-aa7e7b82616d" />
 
-
-
-
-
-
-
-
-
-
-
-[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}구분기술Message QueueApache KafkaML OpsMLflowContainerDocker, Docker ComposeOrchestrationKubernetes (예정)
