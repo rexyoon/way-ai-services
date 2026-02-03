@@ -1,6 +1,6 @@
 from pydantic_settings import BaseSettings
 from functools import lru_cache
-
+from typing import Optional
 
 class Settings(BaseSettings):
     # App
@@ -18,6 +18,10 @@ class Settings(BaseSettings):
     REDIS_HOST: str = "localhost"
     REDIS_PORT: int = 6379
 
+    #API KEYS(추후 추가)
+    # OPENAI_API_KEY: Optional[str] = None
+
+
     class Config:
         env_file = ".env"
 
@@ -25,6 +29,4 @@ class Settings(BaseSettings):
 @lru_cache()
 def get_settings() -> Settings:
     return Settings()
-
-
 settings = get_settings()
