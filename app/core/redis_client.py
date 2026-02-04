@@ -1,5 +1,5 @@
 from redis import Redis
-from app.config import settings  # 경로 통일
+from app.core.config import settings  # 경로 통일
 
 redis_client = Redis(
     host=settings.REDIS_HOST,
