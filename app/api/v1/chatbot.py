@@ -37,7 +37,8 @@ async def chat(request: ChatRequest):
     if not request.message.strip():
         raise HTTPException(status_code=400, detail="메시지를 입력해주세요")
 
-    response = chatbot_service.get_response(
+    # ✅ await 추가
+    response = await chatbot_service.get_response(
         user_id=request.user_id,
         message=request.message
     )
